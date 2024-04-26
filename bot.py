@@ -580,7 +580,7 @@ def year_genre_next(bruh, brah):
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
                     f'\n Оценка на Кинопоиске: {response_dict["docs"][i]["rating"]["kp"]}')
-        except Exception as e:
+        except Exception:
             text = (f'Название: {response_dict["docs"][i]["name"]} '
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
@@ -624,7 +624,7 @@ def searching_by_genre(message):
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
                     f'\n Оценка на Кинопоиске: {response_dict["docs"][i]["rating"]["kp"]}')
-        except Exception as e:
+        except Exception:
             text = (f'Название: {response_dict["docs"][i]["name"]} '
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
@@ -665,7 +665,7 @@ def databruuh(bruh):
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
                     f'\n Оценка на Кинопоиске: {response_dict["docs"][i]["rating"]["kp"]}')
-        except Exception as e:
+        except Exception:
             text = (f'Название: {response_dict["docs"][i]["name"]} '
                     f'\nЖанр: {values_str} \nГод выхода: {response_dict["docs"][i]["year"]} '
                     f'\nОписание: {response_dict["docs"][i]["shortDescription"]}'
